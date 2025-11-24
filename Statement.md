@@ -3,7 +3,8 @@
 # Project statement
 
 ## Problem Statement
-Many popular fitness tracking programs are depends on cloud services or closed systems that restrict users' access to and control over their own activity and health data. A lightweight, non-GUI tool that allow users who value privacy, preferences, and a data-driven approach to easily log activities, compute metrics, and produce comprehensive, customised reports directly is frequently lacking.
+Due to lack of tracking, people find it difficult to maintain routine in their exercise.
+The goal of this project is to give users an easy-to-use, offline tool for tracking their workouts.
 
 ## Scope of the Project
 The project scope is focused on delivering a fully functional, command-line interface (CLI) application built in Python.
