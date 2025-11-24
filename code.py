@@ -64,8 +64,7 @@ class FitnessTracker:
                 data = json.load(f)
                 self.workouts = data.get("workouts", [])
                 self.goals = data.get("goals", self.goals)
-
-# CLI Interface
+                
 def main():
     tracker = FitnessTracker()
     while True:
