@@ -4,15 +4,15 @@ import os
 from collections import defaultdict
 
 class FitnessTracker:
-    def _init_(self):
-        self.workouts = []  # List of workout dicts
+    def __init__(self):
+        self.workouts = []  # List of workout dictionary
         self.goals = {"weekly_calories": 0, "weekly_workouts": 0}  # Default goals
         self.load_data()
 
     def log_workout(self, exercise, duration, calories):
         workout = {
             "exercise": exercise,
-            "duration": duration,  # in minutes
+            "duration": duration,  # Time in minutes
             "calories": calories,
             "date": datetime.date.today().isoformat()
         }
@@ -48,7 +48,7 @@ class FitnessTracker:
         return feedback
 
     def visualize_progress(self):
-        # Simple text-based bar chart for weekly calories
+        # Bar chart for weekly calories
         total_calories, _ = self.get_weekly_summary()
         bars = int(total_calories / 100)  # 1 bar per 100 calories
         print(f"Weekly Calories Progress: {'█' * bars} ({total_calories} cal)")
@@ -77,37 +77,37 @@ def main():
         print("5. Visualize Progress")
         print("6. Save and Exit")
         choice = input("Choose an option: ")
-        
+
         if choice == "1":
             exercise = input("Exercise: ")
             duration = int(input("Duration (min): "))
             calories = int(input("Calories burned: "))
             tracker.log_workout(exercise, duration, calories)
-        
+
         elif choice == "2":
             goal_type = input("Goal type (weekly_calories or weekly_workouts): ")
             target = int(input("Target value: "))
             tracker.set_goal(goal_type, target)
-        
+
         elif choice == "3":
             cal, workouts = tracker.get_weekly_summary()
             print(f"This week: {workouts} workouts, {cal} calories burned.")
-        
+
         elif choice == "4":
             feedback = tracker.check_goals()
             for msg in feedback:
                 print(msg)
-        
+
         elif choice == "5":
             tracker.visualize_progress()
-        
+
         elif choice == "6":
             tracker.save_data()
             print("Data saved. Exiting.")
             break
-        
+
         else:
             print("Invalid choice.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
