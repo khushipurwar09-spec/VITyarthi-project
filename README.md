@@ -44,7 +44,8 @@ Python 3.x installed on your system.
 
 Installation & Run
 
-Save the Code: Checking that the provided Python code is saved as fitness_tracker.py.
+Save the Code: Checking that the Python code and saving it
+
 
 Open Terminal: Locate the directory containing the file.
 
