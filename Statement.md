@@ -1,10 +1,8 @@
 # Project Statement - Fitness Tracker
 
 ## Problem Statement
-In today's fast-moving life, both fitness enthusiasts and beginners find it hard to maintain a regular log of their workout progress.
-Manual tracking through notes or memory only creates inconsistent records, a lack of motivation, and an inability to evaluate fitness improvement over time.
 
-What is fundamentally needed is a simple offline solution for recording workouts, tracking goals, and giving meaningful feedback on progress.
+People struggle to record daily workout activities efficiently and consistently. Available mobile applications designed for fitness are either complicated or require an internet connection that can be discouraging. This presents the need for an offline, lightweight, user-friendly alternative to support users in recording workouts, monitoring calories burnt, setting weekly goals, and assessing performance over time.
 
 ## Project Scope
 
