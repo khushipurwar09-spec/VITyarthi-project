@@ -1,4 +1,4 @@
-# Personal Fitness Tracker — Python CLI Application
+# Personal Fitness Tracker 
 
 The Personal Fitness Tracker is a Python-based Command Line Interface application that supports recording workouts, tracking fitness goals, showing weekly progress, calculating BMI, and maintaining workout history.
 
@@ -67,9 +67,20 @@ Environment - CLI (Terminal / Command Prompt)
 - All workout logs and goals are automatically saved locally.
 - When the app is opened again, previous data will be reloaded.
 
-## Screenshot
+## Result
 
+![image alt](https://github.com/khushipurwar09-spec/VITyarthi-project/blob/main/output%201.png)
 
+![image alt](https://github.com/khushipurwar09-spec/VITyarthi-project/blob/main/output%202.png)
 
+![image alt](https://github.com/khushipurwar09-spec/VITyarthi-project/blob/main/output%203.png)
 
----------------------------------------------------------
+![image alt](https://github.com/khushipurwar09-spec/VITyarthi-project/blob/main/output%204.png)
+
+![image alt](https://github.com/khushipurwar09-spec/VITyarthi-project/blob/main/output%205.png)
+
+![image alt](https://github.com/khushipurwar09-spec/VITyarthi-project/blob/main/output%206.png)
+
+![image alt](https://github.com/khushipurwar09-spec/VITyarthi-project/blob/main/output%207.png)
+
+--------------------------------------- The End ------------------------------------------------------------
